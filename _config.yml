@@ -1,0 +1,13 @@
+# Site settings
+title: Ege Adıgüzel
+description: Undergraduate physics student
+url: "https://egead.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
