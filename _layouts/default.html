@@ -21,5 +21,14 @@
     <main class="main-content">
         {{ content }}
     </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Built with Jekyll.</p>
+            <div class="footer-links">
+                <a href="https://github.com/egead" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
